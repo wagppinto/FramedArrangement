@@ -3,7 +3,9 @@ FramedArrangement
 
 The seventh project for iOS pre-course using views and frames.
 
-###Resources: 
+###Resources:
+- Read and do the projects in Chapter 1-2 of the Big Nerd Ranch iOS Programming book. This should have been sent to you.
+- Read the section on Properties in Chapter 3.
 - Cocoa views have a very basic structure use frames for origin and size. Read Apple's Documentation on "[View and Window Architecture](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewPG_iPhoneOS/WindowsandViews/WindowsandViews.html)"
 - For Objective C read tuts+ article "[iOS Fundamentals: Frames, Bounds, and CGGeometry](http://code.tutsplus.com/tutorials/ios-fundamentals-frames-bounds-and-cggeometry--cms-21196)"
 - For Swift you'll need to read the [tuts+ article](http://code.tutsplus.com/tutorials/ios-fundamentals-frames-bounds-and-cggeometry--cms-21196), there aren't many good resources yet for UIViews and Swift.
