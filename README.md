@@ -9,7 +9,9 @@ The seventh project for iOS pre-course using views and frames.
 - Read this excerpt from your BNR book:
 ```
 The UIView subclass template has provided two method stubs for you. The first is initWithFrame:, the designated initializer for UIView. This method takes one argument, a CGRect, that will become the view’s frame, a property on UIView.
+
 @property (nonatomic) CGRect frame;
+
 A view’s frame specifies the view’s size and its position relative to its superview. Because a view’s size is always specified by its frame, a view is always a rectangle.
 A CGRect contains the members origin and size. The origin is a C structure of type CGPoint and contains two float members: x and y. The size is a C structure of type CGSize and has two float members: width and height.
 
