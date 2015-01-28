@@ -32,7 +32,7 @@ self.aView.frame = CGRectMake(160, 240, 100, 150);
 - Set a new instance of the view controller to the root view controller of the window
 
 ###Step 2: Add the views to the view controller
-- Add a redView, blueView, greenView, yellowView property to the interface of the view controller
+- Add a redView, greenView, blueView, yellowView property to the interface of the view controller
 - Add each view to the view controller's main view in the view did load method:
 ```
     self.redView = [UIView new];
