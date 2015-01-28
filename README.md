@@ -17,11 +17,13 @@ A CGRect contains the members origin and size. The origin is a C structure of ty
 
 Excerpt From: Conway, Joe. “iOS Programming: The Big Nerd Ranch Guide (4th Edition) (Big Nerd Ranch Guides).” 
 ```
-You can modify a views frame like this:
+- You can modify a views frame like this:
 ```
 self.aView.frame = CGRectMake(160, 240, 100, 150);
 ```
-```CGRectMake()``` expects four arguments like such: ```CGRectMake(<CGFloat x>, <CGFloat y>, <CGFloat width>, <CGFloat height>)``` 
+- ```CGRectMake()``` expects four arguments like such:
+```CGRectMake(<CGFloat x>, <CGFloat y>, <CGFloat width>, <CGFloat height>)``` 
+
 - Cocoa views have a very basic structure use frames for origin and size. Read Apple's Documentation on "[View and Window Architecture](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewPG_iPhoneOS/WindowsandViews/WindowsandViews.html)"
 - For Objective C read tuts+ article "[iOS Fundamentals: Frames, Bounds, and CGGeometry](http://code.tutsplus.com/tutorials/ios-fundamentals-frames-bounds-and-cggeometry--cms-21196)"
 - For Swift you'll need to read the [tuts+ article](http://code.tutsplus.com/tutorials/ios-fundamentals-frames-bounds-and-cggeometry--cms-21196), there aren't many good resources yet for UIViews and Swift.
